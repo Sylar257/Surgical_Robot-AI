@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -54,7 +69,7 @@
 				
 						
 				<!-- Three -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>Tempus adipiscing</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -63,8 +78,8 @@
 							</ul>
 						</div>
 						
-						<div class="image">
-							<img src="paper_image/2.Components.png" alt="" />
+						<div class="imgbox">
+							<img class="center-fit" src="paper_image/2.Components.png" alt="" />
 						</div>
 						
 					</section>
@@ -78,21 +93,39 @@
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
+						<div class="imgbox">
+							<img class='center-fit' src="images/OVERVIEW_wenjie.png" alt="" />
 						</div>
 					</section>
-				<!-- Video Section -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="video">
-							<video controls ><!-- autoplay -->
-								<source src="Robot_video.mp4" type="video/mp4">
-								<!-- <source src="movie.ogg" type="video/ogg"> -->
-								Your browser does not support the video tag.
-							  </video>
-						</div>
+				
 
-					</section>
+				<!-- Five -->
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
+					<div class="content">
+						<h2>Tempus adipiscing</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+						<ul class="actions stacked">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					
+					<div class="image">
+						<img class="center-fit" src="images/computer_screen.jpg" alt="" />
+					</div>
+					
+				</section>
+
+				<!-- Video Section -->
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="video">
+						<video controls ><!-- autoplay -->
+							<source src="Robot_video.mp4" type="video/mp4">
+							<!-- <source src="movie.ogg" type="video/ogg"> -->
+							Your browser does not support the video tag.
+						  </video>
+					</div>
+
+				</section>
 
 				<!-- Five -->
 					<section class="wrapper style1 align-center">
@@ -321,32 +354,7 @@
 						</div>
 					</section>
 
-				<!-- Seven -->
-					<section class="wrapper style1 align-center">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-
-						</div>
-					</section>
+				
 
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
